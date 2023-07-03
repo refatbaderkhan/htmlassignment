@@ -1,0 +1,375 @@
+body {
+    font-family: "Didact Gothic Regular", sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: block;
+    background: #be1e2d;
+    width: 100%;
+    height: 60.86px;
+    margin: 0;
+}
+
+.headerbar {
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-top: 4.8px;
+    height: 40.063px;
+}
+
+.container {
+    margin-left: 82.8px;
+    margin-right: 82.8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 40.063px;
+}
+
+.logo {
+    height: 29px;
+    width: 222.637px;
+}
+
+.imagebox {
+    padding-bottom: 5.12px;
+    padding-top: 5.12px;
+    height: 29.823px;
+    margin-left: 16px;
+}
+
+.mainblock {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.titlebox {
+    color: #61413e;
+    border-color: #61413e;
+    border: thick solid;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-stretch: 100%;
+    font-style: normal;
+    line-height: 40px;
+    text-rendering: optimizelegibility;
+    height: 40px;
+    width: 680.400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product {
+    width: 668.4px;
+    height: 43px;
+    margin-bottom: 18px;
+}
+
+.productnameprice{
+    width: 668.400px;
+}
+.product-box {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    font: 300 15px/1.625 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    width: 668.4px;
+    height: 43px;
+}
+
+.productname {
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight:600;
+    color: #61413e;
+}
+
+.productprice {
+    text-transform: capitalize;
+    letter-spacing: 0px;
+    margin-bottom: 0px;
+    text-align: right;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight:600;
+    color: #61413e;
+}
+
+.productdescription {
+    font-size: 13px;
+    margin-top: 0px;
+    line-height: 19px;
+    color: #6c7880;
+    width: 668.400px;
+    height: 19px;
+}
+.espressobox {
+    width: 668.400px;
+    height: 940.975px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0.800px;
+    border-color: #61413e;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.espressotitle {
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center;
+    background-color: #61413e;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-stretch: 100%;
+    font-style: normal;
+    line-height: 37.18px;
+    text-rendering: optimizelegibility;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 45.175;
+    height: 628.4;
+    text-align: center;
+}
+
+.espressodescription {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #61413e;
+    font-size: ;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    height: 28.8px;
+    width: 668.4px;
+}
+
+.espressoproducts {
+    height : 690px;
+    width: 668.4px;
+}
+
+.hotspecialsproducts {
+    height : 690px;
+    width: 668.4px;
+}
+
+.hotspecialstitle {
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center;
+    background-color: #61413e;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-stretch: 100%;
+    font-style: normal;
+    line-height: 37.18px;
+    text-rendering: optimizelegibility;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 45.175;
+    height: 628.4;
+    text-align: center;
+}
+
+.hotspecialsbox {
+    margin-top: 40px;
+    width: 668.400px;
+    height: 850.975px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0.800px;
+    border-color: #61413e;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frenchpressproducts {
+    height : 690px;
+    width: 668.4px;
+}
+
+.frenchpresstitle {
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center;
+    background-color: #61413e;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-stretch: 100%;
+    font-style: normal;
+    line-height: 37.18px;
+    text-rendering: optimizelegibility;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 45.175;
+    height: 628.4;
+    text-align: center;
+}
+
+.frenchpresssbox {
+    margin-top: 40px;
+    width: 668.400px;
+    height: 320.975px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0.800px;
+    border-color: #61413e;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rakwehdescription {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #61413e;
+    font-size: ;
+    font-weight: bold;
+    text-align: center;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+    height: 28.8px;
+    width: 668.4px;
+}
+
+.rakwehproducts {
+    height : 690px;
+    width: 668.4px;
+}
+
+.rakwehtitle {
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center;
+    background-color: #61413e;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-stretch: 100%;
+    font-style: normal;
+    line-height: 37.18px;
+    text-rendering: optimizelegibility;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 45.175;
+    height: 628.4;
+    text-align: center;
+}
+
+.rakwehbox {
+    margin-top: 40px;
+    width: 668.400px;
+    height: 590.975px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0.800px;
+    border-color: #61413e;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.v60products {
+    height : 690px;
+    width: 668.4px;
+}
+
+.v60title {
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center;
+    background-color: #61413e;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-stretch: 100%;
+    font-style: normal;
+    line-height: 37.18px;
+    text-rendering: optimizelegibility;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 45.175;
+    height: 628.4;
+    text-align: center;
+}
+
+.v60box {
+    margin-top: 40px;
+    width: 668.400px;
+    height: 330.975px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0.800px;
+    border-color: #61413e;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+}
