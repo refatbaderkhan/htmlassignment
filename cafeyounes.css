@@ -4,10 +4,9 @@ body {
 }
 
 .header  {
-    display: flex;
+    display: block;
     position: sticky;
     background: #be1e2d;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 8px;
     padding-right: 16px;
@@ -73,10 +72,46 @@ body {
     height: 27px;
     width: 27px;
     background: no-repeat 50%
-    ;
-    
 }
 
+.mainblock {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.categoriesconatiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 960px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.titlebox {
+    color: #61413e;
+    border-color: #61413e;
+    border: thick solid;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-stretch: 100%;
+    font-style: normal;
+    line-height: 40px;
+    text-rendering: optimizelegibility;
+    height: 40px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*s.headerbar {
     padding-bottom: 8px;
     padding-top: 8px;
@@ -106,10 +141,7 @@ body {
     margin-left: 16px;
 }
 
-.mainblock {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+
 
 .titlebox {
     color: #61413e;
@@ -186,11 +218,7 @@ body {
 .espressobox {
     width: 668.400px;
     height: 940.975px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 0.800px;
-    border-color: #61413e;
-    border: 1px solid;
+
     margin-left: auto;
     margin-right: auto;
 }
