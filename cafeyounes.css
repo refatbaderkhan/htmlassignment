@@ -6,6 +6,7 @@ body {
 .header  {
     display: block;
     position: sticky;
+    top:0;
     background: #be1e2d;
     justify-content: space-between;
     padding-top: 8px;
