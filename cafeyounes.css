@@ -26,7 +26,6 @@ body {
     margin-right: auto;
     height 40.5px;
     width: 930px ;
-
 }
 
 .logobox{
@@ -36,13 +35,9 @@ body {
     width: 222.639;
     padding-top: 5.120px;
     padding-bottom: 5.120px;
-    /*padding-top: 0.32rem;
-    padding-bottom: 0.32rem;
-    margin-right: 1rem;*/
     vertical-align: center;
-    /*padding-top: 5.120px;
-    padding-top: 5.120px;*/
 }
+
 .logo {
     align-self: flex-start;
     vertical-align: middle;
@@ -63,6 +58,7 @@ body {
     padding-right: 12px;
     border: 0.8px solid  rgba(255,242,0);
 }
+
 .navb {
     border-color: rgba(255,242,0);
     align-self: flex-end;
@@ -85,12 +81,11 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 960px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: 100px;
-    margin-right: 100px;
-
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
 }
 
 .titlebox {
@@ -106,65 +101,90 @@ body {
     font-stretch: 100%;
     font-style: normal;
     line-height: 40px;
-    text-rendering: optimizelegibility;
     height: 40px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
-/*s.headerbar {
-    padding-bottom: 8px;
-    padding-top: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
-    border-top: 4.8px;
-    height: 40.063px;
-}
 
-.container {
-    margin-left: 82.8px;
-    margin-right: 82.8px;
-    padding-left: 15px;
-    padding-right: 15px;
-    height: 40.063px;
-}
-
-.logo {
-    height: 29px;
-    width: 222.637px;
-}
-
-.imagebox {
-    padding-bottom: 5.12px;
-    padding-top: 5.12px;
-    height: 29.823px;
-    margin-left: 16px;
-}
-
-
-
-.titlebox {
-    color: #61413e;
+.categorybox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+    border: 0.8px solid;
     border-color: #61413e;
-    border: thick solid;
-    font-weight: 800;
-    letter-spacing: 2px;
-    margin-bottom: 25px;
-    margin-top: 10px;
-    text-align: center;
     width: 100%;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 24px;
-    font-stretch: 100%;
-    font-style: normal;
-    line-height: 40px;
-    text-rendering: optimizelegibility;
-    height: 40px;
-    width: 680.400px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
+.catergoryname {
+    height: 45.175px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    background-color: #61413e;
+    font-family: "Didact Gothic Regular", sans-serif;
+    text-transform:uppercase;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0px;
+    font-size: 22px;
+    line-height: 37.18px;
+}
+
+.categorydescription {
+    margin-bottom: 25px;
+    height: 28.8px;
+    text-align: center;
+    color: #61413e;
+    vertical-align: text-top;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.productrow {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 18px;
+}
+
+.productnameprice {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    height: 17px;
+}
+
+.productname {
+    font-size: 15px;
+    line-height: 17px;
+    color: #61413e;
+    text-transform: capitalize;
+    align-self: flex-start;
+}
+
+.productprice {
+    font-size: 15px;
+    line-height: 17px;
+    color: #61413e;
+    align-self: flex-end;
+}
+
+.productdescription {
+    height: 19px;
+    font-size: 13px;
+    margin-top: 7px;
+    line-height: 19px;
+    color: #6c7880;
+}
+/*
 .product {
     width: 668.4px;
     height: 43px;
@@ -174,16 +194,7 @@ body {
 .productnameprice{
     width: 668.400px;
 }
-.product-box {
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-wrap: wrap;
-    font: 300 15px/1.625 "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: left;
-    width: 668.4px;
-    height: 43px;
-}
+
 
 .productname {
     text-transform: capitalize;
