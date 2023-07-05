@@ -34,12 +34,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     height 40.5px;
-    width: 930px ;
+    width: 1140px;
 }
 
 .logobox{
-    display: flex
-    align-self:flex-start;
     height: 30.260px;
     width: 222.639;
     padding-top: 5.120px;
