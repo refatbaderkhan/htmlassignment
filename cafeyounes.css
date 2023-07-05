@@ -3,23 +3,31 @@ body {
     margin: 0;
 }
 
-.header  {
-    display: block;
+.sticky  {
+    display: flex;
     position: sticky;
-    top:0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background: #be1e2d;
-    justify-content: space-between;
     padding-top: 8px;
     padding-right: 16px;
     padding-bottom: 8px;
     padding-left: 16px;
     height: 40.5px;
+    color: #ffffff;
+    
+}
+
+.header {
+    top:0;
     border-top: 4.444px solid #be1e2d;
 }
 
 .logobuttonbox {
     display: flex ;
     justify-content:space-between ;
+    align-items: center;
     flex-wrap: wrap;
     padding-left: 15px;
     padding-right: 15px;
@@ -184,4 +192,9 @@ body {
     margin-top: 7px;
     line-height: 19px;
     color: #6c7880;
+}
+
+.footer {
+    bottom:0;
+    border-bottom: 4.444px solid #be1e2d;
 }
