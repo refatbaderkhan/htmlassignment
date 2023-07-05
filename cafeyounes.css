@@ -39,7 +39,7 @@ body {
 
 .logobox{
     height: 30.260px;
-    width: 222.639;
+    width: 222.639px;
     padding-top: 5.120px;
     padding-bottom: 5.120px;
     vertical-align: center;
@@ -52,29 +52,29 @@ body {
     width: 222.639px;
 }
 
-.navbutton{
-    align-self: flex-end;
+.navbutton {
     background-color: transparent;
-    cursor: pointer;
-    border-radius: 0.25rem;
-    height: 27px;
-    width: 27px;
     padding-top: 4px;
     padding-bottom: 4px;
     padding-left: 12px;
     padding-right: 12px;
-    border: 0.8px solid  rgba(255,242,0);
-}
-
-.navb {
-    border-color: rgba(255,242,0);
-    align-self: flex-end;
-    background-color: transparent;
-    cursor: pointer;
-    border-radius: 0.25rem;
     height: 27px;
     width: 27px;
-    background: no-repeat 50%
+    border-radius: 0.25rem;
+    border: 0.8px solid;
+    border-color: rgba(255,242,0);
+    box-sizing: border-box;
+
+}
+
+.navbuttontoggler {
+    height: 27px;
+    width: 27px;
+    background-image:url(images\toggler.svg);
+    border-color: rgba(255,242,0);
+    vertical-align: middle;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
 }
 
 .mainblock {
@@ -159,7 +159,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-bottom: 18px;
+    margin-bottom: 7px;
 }
 
 .productnameprice {
@@ -187,7 +187,7 @@ body {
 .productdescription {
     height: 19px;
     font-size: 13px;
-    margin-top: 7px;
+    margin-top: 5px;
     line-height: 19px;
     color: #6c7880;
 }
